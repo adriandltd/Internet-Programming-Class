@@ -1,0 +1,127 @@
+
+body {
+    background-image: url("https://i.pinimg.com/originals/ac/5d/da/ac5dda2fda9686850d36c0dc2fa6effc.jpg");
+    background-color: black;
+}
+#SantanaBackground{
+  background-size: contain;
+  background-image: url("https://live.staticflickr.com/6152/6233546209_d12c669412_b.jpg");
+  background-color: black;
+}
+#PageBackground{
+  background-size: contain;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/619CcXRfEIL._SL1200_.jpg");
+  background-color: black;
+}
+#GilmourBackground{
+  background-image: url("https://i.redd.it/tcq971bd0i6y.png");
+  background-color: black;
+}
+#ClaptonBackground{
+  background-size: contain;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/81BaZjQpt9L._SL1400_.jpg");
+  background-color: black;
+}
+#SRVBackground{
+  background-size: cover;
+  align-content: center;
+  background-image: url("https://townsquare.media/site/295/files/2018/05/Stevie-Ray-Vaughan-Texas-Flood-Epic.jpg");
+  background-color: black;
+}
+h1{
+  text-align: center;
+  color: greenyellow;
+  -webkit-text-stroke-width: 0.5px;
+  background: rgba(0, 0, 0, 0.25);
+  font-family: cursive
+}
+#picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+h2{
+  text-align: center;
+  -webkit-text-stroke-width:0.1px;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+p{
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+a{
+  background: rgba(0, 0, 0, 0.5);
+}
+table{
+  background-color:  rgba(0, 0, 0, 0.6);
+  border-spacing: 5px;
+}
+#SantanaColor{
+      color: lime;
+}
+#SantanaTable{
+  color: lime;
+  border: 1px solid lime;
+}
+#SantanaTable td{
+  border: 1px solid lime;
+}
+#SantanaTable tr{
+  border: 1px solid lime;
+}
+#PageColor{
+  color: cyan;
+}
+#PageTable{
+color: cyan;
+border: 1px solid cyan;
+}
+#PageTable td{
+border: 1px solid cyan;
+}
+#PageTable tr{
+border: 1px solid cyan;
+}
+#ClaptonColor{
+  color: yellow;
+}
+#ClaptonTable{
+color: yellow;
+border: 1px solid yellow;
+}
+#ClaptonTable td{
+border: 1px solid yellow;
+}
+#ClaptonTable tr{
+border: 1px solid yellow;
+}
+#GilmourColor{
+  color: hotpink;
+}
+#GilmourTable{
+color: hotpink;
+border: 1px solid hotpink;
+}
+#GilmourTable td{
+border: 1px solid hotpink;
+}
+#GilmourTable tr{
+border: 1px solid hotpink;
+}
+#SRVColor{
+  color: whitesmoke;
+}
+#SRVTable{
+color: whitesmoke;
+border: 1px solid whitesmoke;
+}
+#SRVTable td{
+border: 1px solid whitesmoke;
+}
+#SRVTable tr{
+border: 1px solid whitesmoke;
+}
+
+

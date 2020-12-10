@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>{{title}}</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">ITEM</th>
+                <th scope="col">QTY</th>
+                <th scope="col">COST</th>
+                <th scope="col">DELETE</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#item}}
+            <tr>
+                <td>{{name}}</td>
+                <td>{{qty}}</td>
+                <td>{{cost}}</td>
+                <td><a href="/delete-from-cart/{{id}}" class="btn btn-danger" role="button">X</a></td>
+            </tr>
+            {{/item}}
+            <tr>
+                <td><a href="/items" class="btn btn-secondary" role="button">Continue Shopping</a></td>
+                <td></td>
+                <td><span style="font-weight:bold">TOTAL: ${{cart.totalCost}}</span></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

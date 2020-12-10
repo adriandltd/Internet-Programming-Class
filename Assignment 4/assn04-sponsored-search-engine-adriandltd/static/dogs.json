@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Labrador",
+        "description": "The Labrador Retriever was bred to be both a friendly companion and a useful working dog breed. Historically, they earned their keep as a fisherman’s helper: hauling nets, fetching ropes, and retrieving fish from the chilly North Atlantic. Today’s Lab is as good-natured and hardworking as their ancestors, and they’re also America’s most popular breed. Modern Labs work as retrievers for hunters, assistance dogs, show competitors, and search and rescue dogs, among other canine jobs. See below for all Labrador Retriever facts and dog breed characteristics!",
+        "url": "https://dogtime.com/dog-breeds/labrador-retriever",
+        "relevance": "0.77"
+    },
+    {
+        "title": "Golden Retreiver",
+        "description": "The Golden Retriever is a sturdy, muscular dog of medium size, famous for the dense, lustrous coat of gold that gives the breed its name. The broad head, with its friendly and intelligent eyes, short ears, and straight muzzle, is a breed hallmark. In motion, Goldens move with a smooth, powerful gait, and the feathery tail is carried, as breed fanciers say, with a merry action. The most complete records of the development of the Golden Retriever are included in the record books that were kept from 1835 until about 1890 by the gamekeepers at the Guisachan (pronounced Gooeesicun) estate of Lord Tweedmouth at Inverness-Shire, Scotland. These records were released to public notice in Country Life in 1952, when Lord Tweedmouth’s great-nephew, the sixth Earl of Ilchester, historian and sportsman, published material that had been left by his ancestor. They provided factual confirmation to the stories that had been handed down through generations. Goldens are outgoing, trustworthy, and eager-to-please family dogs, and relatively easy to train. They take a joyous and playful approach to life and maintain this puppyish behavior into adulthood. These energetic, powerful gundogs enjoy outdoor play. For a breed built to retrieve waterfowl for hours on end, swimming and fetching are natural pastimes.",
+        "url":"https://www.akc.org/dog-breeds/golden-retriever/",
+        "relevance":"0.67"
+    },
+    {
+        "title": "Can Dogs Eat Ice Cream?",
+        "description": "The first problem with ice cream is that dogs' bodies are not designed to digest milk after they are weaned, as puppies. Since ice cream is made with milk, feeding your dog ice cream could lead to gas, bloating, constipation, diarrhea, or vomiting. The second problem with ice cream is that it is loaded with sugar, and feeding your dog sugary foods can lead to weight gain, which can lead to other health problems. Even if the ice cream says it's sugarless, you need to be careful to read the label to make sure that no xylitol is used, as this sweetener is extremely toxic to dogs. The final problem with ice cream is that some flavors may actually be dangerous for dogs. Chocolate, for example, can be toxic for dogs because their bodies cannot efficiently process a component of the chocolate: theobromine.",
+        "url":"https://www.akc.org/expert-advice/nutrition/can-dogs-eat-ice-cream/",
+        "relevance":"0.54"
+    },
+    {
+        "title": "Dalmatian",
+        "description":"The Dalmatian’s delightful, eye-catching spots of black or liver adorn one of the most distinctive coats in the animal kingdom. Beneath the spots is a graceful, elegantly proportioned trotting dog standing between 19 and 23 inches at the shoulder. Dals are muscular, built to go the distance; the powerful hindquarters provide the drive behind the smooth, effortless gait. The Dal was originally bred to guard horses and coaches, and some of the old protective instinct remains. Reserved and dignified, Dals can be aloof with strangers and are dependable watchdogs. With their preferred humans, Dals are bright, loyal, and loving house dogs. They are strong, active athletes with great stamina—a wonderful partner for runners and hikers.",
+        "url":"https://www.akc.org/dog-breeds/dalmatian/",
+        "relevance":"0.66"
+    }
+]

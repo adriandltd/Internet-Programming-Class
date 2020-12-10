@@ -1,0 +1,179 @@
+<html>
+
+<head>
+	<title>Lab01: JavaScript Exercises</title>
+</head>
+
+<body>
+
+	<h1>Lab01: JavaScript Exercises</h1>
+
+	<p>This file has a bunch of <code>inline</code> JavaScript that you can't see. It's <em>ghost code</em>.
+		OooOoooOOooh...</p>
+
+	<p>Right-click and "view source" to see the code.</p>
+
+	<p>Open your <code>JavaScript Console</code> through the developer tools and you'll see the output of a print
+		statement.</p>
+
+	<h4>Prelude</h4>
+
+	<ol>
+		<li>Accept this repo invite: https://classroom.github.com/a/9O_5Hg6g</li>
+		<li>Using your source control tool of choice <code>clone</code> the empty repo</li>
+		<li>Create a subfolder in the repo called <code>lab01</code></li>
+		<li>Right-click and save this file into that <code>lab01</code> folder. <strong>Make sure you save HTML only,
+				not Webpage Complete on Windows!</strong></li>
+		<li><code>commit</code> and <code>push</code> your changes. Verify them in the GitHub web interface.</li>
+	</ol>
+
+	<h4>Work, work</h4>
+
+	<ol>
+		<li>Open the local html file in your browser and editor</li>
+		<li>Edit the inline JavaScript as indicated, and verify the output in the console</li>
+		<li><code>commit</code> and <code>push</code> your changes.</li>
+	</ol>
+
+	<script>
+		// JavaScript is interpreted top to bottom, so any code in this file will be run 
+		// as soon as it's loaded into a browser. Functions can be defined along the way as well.
+
+		console.log("This is a test for printing to the console!");
+
+		// The JavaScript console doesn't support user input - we'll be working with content on
+		// web pages. For these exercises, we'll just assign hardcoded values to variables. Note
+		// the point is that the code must work with any values you choose!
+
+
+		// Q1: Declare two variables and set them to floating-point values.
+		//     Display (on the console) the product of the two variables.
+
+		var x = 2.2;
+		var y = 3.3;
+		console.log("Value One: " + x);
+		console.log("Value Two: " + y);
+
+		// Q2: Declare four variables and set them to floating-point values.
+		//     Calculate the average of those variables and display it.
+
+		var x = 1.1;
+		var y = 2.2;
+		var z = 3.3;
+		var w = 4.4;
+		console.log("Value One: " + x + "\nValue Two: " + y + "\nValue Three: " + z + "\nValue Four: " + w + "\nAverage: " + (x + y + z + w) / 4);
+
+		// Q3: Declare two variables and set them to string values.
+		//     If the two strings are the same, display "Equal".
+		//     If the two strings are not the same, display "Not Equal".
+
+		var string1 = "String";
+		var string2 = "string";
+		string1 == string2 ? console.log("Equal") : console.log("Not Equal");
+
+		// Q4: Declare a variable and set it to an integer value.
+		//     Determine whether the variable is even or odd, and display "Even" or "Odd".
+
+		var num = Math.floor(Math.random() * 20) + 1;  // returns a random integer from 1 to 20
+		num % 2 == 0 ? console.log(num + " is Even.") : console.log(num + " is Odd.")
+
+
+		// Q5: Write a function that takes two variables and returns the value of the larger one.
+		//     Using that function and the four variables from Q2, display the value of the largest one.
+
+		function larger(var1, var2) {
+			if (var1 > var2)
+				return var1;
+			return var2;
+		}
+		console.log("The largest value is: " + larger(larger(x, y), larger(w, z)));
+
+		// Q6: Declare an array of five integer values.
+		//     Using a loop, calculate and display their sum and average.
+
+		var array = [25, 29, 35, 14, 85];
+		var sum = 0;
+		for (var i = 0; i < array.length; i++) {
+			sum += array[i];
+		}
+		console.log("Array Sum: " + sum);
+		console.log("Array Average: " + sum / array.length)
+
+		// Q7: Write a function that takes an integer N and uses a loop to display all the positive 
+		//     integers up to N.
+		//     Call that function with the value 8 to display "1 2 3 4 5 6 7 8".
+		//     (note! do it on one line using string concatenation)
+
+		function displayint(value) {
+			var string = "";
+			for (var i = 1; i <= value; i++) {
+				string += i + " ";
+			}
+			console.log("N = " + value + ": " + string);
+		}
+
+		displayint(8);
+
+		// Q8: Using nested loops, and the variable from Q4, display that many rows of numbers.
+		//     The first row should have 1, the second row should have 1 2, third row should have 1 2 3
+		//     and so on.
+		// e.g. Input: 4
+		// Display: 1
+		//          1 2
+		//          1 2 3
+		//          1 2 3 4
+
+		function displayRows() {
+			for (var i = 1; i <= num; i++) {
+				var s = "";
+				for (var j = 1; j <= i; j++) {
+					s += j + " ";
+				}
+				console.log(s);
+			}
+		}
+
+		displayRows();
+
+
+		// Q9: Using the array forEach method, display the numbers in the array from Q6.
+
+		array.forEach(function (entry) {
+			console.log(entry);
+		});
+
+		// Q10: Write a function that takes an array of numbers and returns the smallest value.
+		//      Call that function with the array from Q6 and display the returned value.
+
+		function smallest(arr) {
+			var min = Number.POSITIVE_INFINITY
+			for (i = 0; i < arr.length; i++) {
+				min = Math.min(min, arr[i])
+			}
+			console.log("Smallest array value: " + min)
+		}
+		smallest(array);
+
+		// Q11: Declare an associative array with three names as keys and ages as values.
+		//      Display all the key/value pairs like: "Jose is 17".
+
+		var arr = [
+			{ age: 24, name: "Jim" },
+			{ age: 21, name: "Richard" },
+			{ age: 19, name: "Rodger" },
+			{ age: 18, name: "David" },
+			{ age: 14, name: "Tom" },
+			{ age: 22, name: "Patrick" },
+			{ age: 17, name: "Jose" },
+		];
+		for (var key in arr) {
+			var names = arr[key].name;
+			var ages = arr[key].age;
+			console.log(names + " is", ages);
+		}
+
+	</script>
+
+</body>
+
+</html>

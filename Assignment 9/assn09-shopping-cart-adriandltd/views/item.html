@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<title>Incredibly Simple Shopping</title>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="pb-2 mt-4 mb-2">
+	<h1>Buy More!</h1>
+</div>
+
+<div class="row col-8">
+<table class="table">
+
+<thead>
+	<tr>
+		<th></th>
+		<th><a href="">Name</a></th>
+		<th class="price"><a href="">Price</a></th>
+	</tr>
+</thead>
+
+<!-- 
+	generate these table rows from the database
+-->
+
+{{#item}}
+<tr>
+	<td rowspan="2">
+		<img class="thumb" src= {{image_url}}>
+	</td>
+	<td><span class="name"><a href="/items/{{id}}">{{name}}</a></span></td>
+	<td class="price">${{cost}}</td>
+</tr>
+<tr><td colspan="2">{{description}}</td></tr>
+{{/item}}
+
+<!-- end generating table rows -->
+
+</table>
+
+</div>
+
+</body>
+
+</html>

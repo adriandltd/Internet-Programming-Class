@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Apple iPhone 11",
+        "description":"The iPhone 11 packs an A13 Bionic CPU. It entered production in May, according to Bloomberg and it keeps the same 7nm architecture as before. Apple said during its demos that this was the fastest chip on the market both in terms of performance and graphics. Analyst Ming-Chi Kuo reckons the iPhone 11 packs 4GB of RAM − just like the iPhone XS − but iOS optimisation makes the most of what seems to be a relatively stingy amount of memory in comparison to competitors, which increasingly pack in up to 12GB of memory. As usual, Apple didn’t mention RAM at all on stage, so we’ll have to wait for a teardown to know more. iOS 13 will ship on the new iPhone 11 and this brings highly-requested features like a system-wide dark mode, improved mapping service and more.",
+        "url": "https://www.apple.com/iphone-11/",
+        "relevance": "0.88"
+    },
+    {
+        "title": "Google Pixel 3",
+        "description":"Capture the perfect shot every time, get things done with the Google Assistant,1 enjoy an all-day battery, and more.Get everyone in the picture with Group Selfies—no selfie stick required. Snap portraits like a pro with Portrait Mode. Capture smiles, not blinks, for a great photo every time. Pixel 3 comes with a battery that charges fast and wirelessly, and lasts all day. It's even smart enough to limit battery usage for the apps you don't use often to keep you going longer. Get help from the Google Assistant: reserve a table at your favorite restaurant, buy tickets, get commute times, weather info, and more—all with a simple squeeze, or just by using your voice.",
+        "url":"https://store.google.com/product/pixel_3",
+        "relevance":"0.78"
+    },
+    {
+        "title": "Samsung Galaxy S10",
+        "description":"The 10th generation of Samsung Galaxy lets you do more and do it better. The new Samsung Galaxy S10 has more screen with an all-new nearly bezel-less 6.1” QHD+ Cinematic Infinity Display. With a total of 4 cameras, its premium performance utilizes the Pro-grade Cameras with optical zoom for effortless capture and an ultra-wide lens that sees the world like you do. The in display Ultrasonic Fingerprint ID gives the next generation in security, unlocking with a tap of the screen. Best of all, the Wireless PowerShare feature lets you wirelessly charge your Galaxy Buds, Galaxy Watch, or even a friend’s Qi wireless charging capable phone right from your device!",
+        "url":"samsung.com/us/mobile/galaxy-s10/",
+        "relevance":"0.75"
+    }
+]

@@ -1,0 +1,104 @@
+<html>
+
+<head>
+
+	<title>JavaScript Comment Board</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="pb-2 mt-4 mb-2 border-bottom">
+			<h1>My Fake Blog</h1>
+		</div>
+
+		<div class="row col-md-8 col-md-offset-2">
+
+			<h2>Post About Thing</h2>
+
+			<p>
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+				This is a wall of text. This is a wall of text. This is a wall of text.
+			</p>
+
+			<div class="card w-100" style="margin-bottom: 20px;">
+				<h3 class="card-header">Add a comment</h3>
+				<div class="card-body">
+					<form>
+						<div class="form-group">
+							<p id="Errorname" style="color: red; display: none;">Name contains invalid character.</p>
+							<p id="Errorname2" style="color: red; display: none;">Name is empty.</p>
+							<input id="name" type="textbox" class="form-control" placeholder="Name" />
+						</div>
+						<div class="form-group">
+							<p id="Errorcomment" style="color: red; display: none;">Comment is empty.</p>
+							<textarea id="comment" rows="4" cols="60" class="form-control"
+								placeholder="Comment"></textarea>
+						</div>
+						<div class="form-group">
+							<button class="btn btn-primary" id="postbtn">Post</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div id="cardcontainer" class="card w-100" style="border: none;"> 
+			<div id="card" style="display: none; margin-bottom: 10px;" class="card w-100">
+				<div class="card-header">
+					<div class="row">
+						<div class="col-sm-11">
+							<h4 id="newcommentname">etomai</h4>
+						</div>
+						<div class="col-sm-1">
+							<button id="deletebtn" class="delete_btn" class="btn">X</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="card-body">
+					<p id="newcommentcomment">This is my comment. I think the post is too long.</p>
+				</div>
+			</div>
+
+			<div></div></div> 
+
+		</div>
+
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="comment.js"></script>
+
+		</script>
+
+</body>
+
+</html>
